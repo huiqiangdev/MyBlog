@@ -15,6 +15,8 @@
 		D6FB687E21145CF100C6A73A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FB687D21145CF100C6A73A /* main.m */; };
 		D6FB688A21145DE400C6A73A /* concrete_ComponentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FB688921145DE400C6A73A /* concrete_ComponentObject.m */; };
 		D6FB688D2114639700C6A73A /* concret_leafObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FB688C2114639700C6A73A /* concret_leafObject.m */; };
+		D6FB689321146A0800C6A73A /* Concrete_ComponentObject2.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FB689221146A0800C6A73A /* Concrete_ComponentObject2.m */; };
+		D6FB689621146A1C00C6A73A /* Concrete_leafObject2.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FB689521146A1C00C6A73A /* Concrete_leafObject2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,11 @@
 		D6FB688921145DE400C6A73A /* concrete_ComponentObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = concrete_ComponentObject.m; sourceTree = "<group>"; };
 		D6FB688B2114639700C6A73A /* concret_leafObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = concret_leafObject.h; sourceTree = "<group>"; };
 		D6FB688C2114639700C6A73A /* concret_leafObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = concret_leafObject.m; sourceTree = "<group>"; };
+		D6FB6890211469B800C6A73A /* Abstract_ComponentProtocol2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Abstract_ComponentProtocol2.h; sourceTree = "<group>"; };
+		D6FB689121146A0800C6A73A /* Concrete_ComponentObject2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Concrete_ComponentObject2.h; sourceTree = "<group>"; };
+		D6FB689221146A0800C6A73A /* Concrete_ComponentObject2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Concrete_ComponentObject2.m; sourceTree = "<group>"; };
+		D6FB689421146A1C00C6A73A /* Concrete_leafObject2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Concrete_leafObject2.h; sourceTree = "<group>"; };
+		D6FB689521146A1C00C6A73A /* Concrete_leafObject2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Concrete_leafObject2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +76,7 @@
 				D6FB686F21145CF100C6A73A /* AppDelegate.m */,
 				D6FB687121145CF100C6A73A /* ViewController.h */,
 				D6FB687221145CF100C6A73A /* ViewController.m */,
+				D6FB688F2114688A00C6A73A /* Simple2 */,
 				D6FB688E2114652200C6A73A /* Simple1 */,
 				D6FB687421145CF100C6A73A /* Main.storyboard */,
 				D6FB687721145CF100C6A73A /* Assets.xcassets */,
@@ -89,6 +97,18 @@
 				D6FB688C2114639700C6A73A /* concret_leafObject.m */,
 			);
 			path = Simple1;
+			sourceTree = "<group>";
+		};
+		D6FB688F2114688A00C6A73A /* Simple2 */ = {
+			isa = PBXGroup;
+			children = (
+				D6FB6890211469B800C6A73A /* Abstract_ComponentProtocol2.h */,
+				D6FB689121146A0800C6A73A /* Concrete_ComponentObject2.h */,
+				D6FB689221146A0800C6A73A /* Concrete_ComponentObject2.m */,
+				D6FB689421146A1C00C6A73A /* Concrete_leafObject2.h */,
+				D6FB689521146A1C00C6A73A /* Concrete_leafObject2.m */,
+			);
+			path = Simple2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,9 +183,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6FB687321145CF100C6A73A /* ViewController.m in Sources */,
+				D6FB689621146A1C00C6A73A /* Concrete_leafObject2.m in Sources */,
 				D6FB688A21145DE400C6A73A /* concrete_ComponentObject.m in Sources */,
 				D6FB687E21145CF100C6A73A /* main.m in Sources */,
 				D6FB688D2114639700C6A73A /* concret_leafObject.m in Sources */,
+				D6FB689321146A0800C6A73A /* Concrete_ComponentObject2.m in Sources */,
 				D6FB687021145CF100C6A73A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
